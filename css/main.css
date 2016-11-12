@@ -1,0 +1,52 @@
+body{
+	background-image:url(../img/tech.jpg);
+	background-size:cover;
+}
+* {
+	font-family: 'Bungee Inline', cursive;
+	color:#8cdbf6;
+}
+div.container{
+	text-align:center;
+}
+input#username{
+	margin:20px 0;
+	width:40%;
+	height:40px;
+	border-radius:5px;
+	border:1px solid #aea9a9;
+	font-size:20px;
+	color:#021e2c;
+}
+textarea#comment{
+	margin: 20px 0;
+	width:70%;
+	height:70px;
+	border-radius:5px;
+	border:1px solid #aea9a9;
+	font-size:20px;
+	color:#021e2c;
+
+}
+li.grouplist{
+	border:1px solid #aea9a9;
+	border-radius:10px;
+	width:60%;
+	margin-left:19%;
+	margin-top:30px;
+	list-style: none
+}
+.grouplist h3{
+	color:#021e2c;
+	font-size:30px;
+}
+.grouplist p{
+	font-size:25px;
+	color:#021e2c;
+}
+
+img.newImage{
+	height:40%;
+	width:40%;
+	border-radius:10px;
+	}
