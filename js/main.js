@@ -1,3 +1,10 @@
+document.getElementById('comment').addEventListener('keypress', enterKey)
+function enterKey(e){
+	if(e.keyCode == 13){
+		getInfo()
+	}
+}false
+
 // functioning getInfo() when its clicked
 function getInfo(){
 	// setting variables for new tags, elements and images
